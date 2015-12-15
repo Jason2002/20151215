@@ -1,0 +1,52 @@
+http://qxw1146820032.my3w.com/Login.aspx
+
+common folder
+\\10.16.83.45\Common_Folder\HR
+\\10.16.83.45\Dept_Folder\MIS
+\\10.16.76.251\Rollin\software
+
+Git ÊÓÆµ
+\\wcmis234\Git
+\\wcmis234\Share
+
+jaaafbb7c6
+daaaybb4c5
+raaalbb9c5
+
+User Name:  jf76
+Password:  negg@123
+
+database:
+05仓
+server: S5RMADB01
+user:   whdbo
+pwd:    2Dev4WH
+33仓
+server: S33SQL01
+user:   whdbo
+pwd:    2Dev4WH
+
+10.1.24.146
+GQC Server: neqdc\cf86
+Password  : fXW567%^&
+
+
+文件服务器
+\\ssfps03\Public_Folder
+\\ssfps04\Public_Folder
+\\10.16.76.250
+
+ALTER.SQL
+DBMPF_LocalRMA_20150926_SPT20151010.xml
+*改表和视图要填写DBCC.XML(SEND REQUEST TO DBA)等待回复，后将文件名 填写到DBMPF_LocalRMA_20150926_SPT20151010.xml ChangeConfirmNo，后将DBMPF_LocalRMA_20150926_SPT20151010.xml 以邮件发给DBA
+move to GQC, DBA FINISHE 后将文件DBMPF_LocalRMA_20150926_SPT20151010.xml确认
+后返回来然后push
+
+git tag(LocalRMA_T_V 固定, master "1.0" branch "0.0", 20151113 申请日期 SPT20151121 sprint名称)
+git tag -a 'LocalRMA_T_V1.0.0.20151113_SPT20151121' -m 'first test'
+git push --tag
+
+autoupdate 
+downloadpath \\10.16.76.230\LocalRMA
+
+NewEgg RMA => Local RMA
